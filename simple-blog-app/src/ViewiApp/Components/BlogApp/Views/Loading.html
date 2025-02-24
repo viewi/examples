@@ -1,0 +1,10 @@
+<div>
+    <div if="$loading" class="w-100 h-400 position-relative d-flex justify-content-center align-items-center">
+        <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <div else>
+        <slot></slot>
+    </div>
+</div>

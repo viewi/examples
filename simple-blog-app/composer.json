@@ -1,0 +1,22 @@
+{
+    "name": "viewi/simple-blog-app",
+    "description": "Blog Demo from Viewi's home page",
+    "type": "project",
+    "require": {
+        "viewi/icons": "^1.1",
+        "viewi/viewi": "^2.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Viewi\\SimpleBlogApp\\": "src/",
+            "Components\\": "src/ViewiApp/Components/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Voitovych",
+            "email": "col606v@gmail.com"
+        }
+    ]
+}

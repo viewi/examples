@@ -1,0 +1,12 @@
+composer.phar
+**/vendor/**/*
+**/build/**/*
+!**/build/.gitkeep
+**/viewi-build/**/*
+**/viewi-viewi/**/*
+**/viewi-default/**/*
+**/js/app/**/*
+**/js/dist/**/*
+**/node_modules
+server.pid
+**/js/viewi/**

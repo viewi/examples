@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        $title | Viewi
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <CssBundle links="{['/bs-theme.css', '/bootstrap.css', '/ui.css']}" minify combine />
+</head>
+
+<body class="blog-application">
+    <IconsSprite />
+    <slot></slot>
+    <Portal name="body"></Portal>
+    <ViewiAssets />
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<BlogLayout>    
+    <div class="text-center py-3">
+        <button class="btn btn-outline-secondary" (click)="open('today')">Today</button>
+        <button class="btn btn-outline-secondary ms-2" (click)="open('week')">This Week</button>
+    </div>
+    <Loading loading="{!$blogs}">
+        <SearchableBlogList
+            title="{getTitle()}"
+            blogs="$blogs"
+        />
+    </Loading>
+</BlogLayout>

@@ -1,0 +1,7 @@
+<h3>$title</h3>
+<p class="text-secondary">Here is something that might interest you.</p>
+<SearchInput model="$searchText" (change)="search" />
+<BlogsSection 
+    blogs="$foundBlogs" 
+    emptyHeading="{"No matches for '$searchText'"}" 
+/>
