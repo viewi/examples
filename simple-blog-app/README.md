@@ -1,5 +1,15 @@
 # Blog demo application from Viewi's home page
 
+## Install
+
+1. `composer install`
+
+2. `cd src/ViewiApp/js`
+
+3. `npm install`
+
+## Run
+
 1. Run NPM watch command:
 
 Root folder: `simple-blog-app`
