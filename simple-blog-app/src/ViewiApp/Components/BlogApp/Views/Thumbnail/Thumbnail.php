@@ -1,11 +1,11 @@
 <?php
 
-namespace Components\BlogApp\Views;
+namespace Components\BlogApp\Views\Thumbnail;
 
 use Components\BlogApp\Models\BlogModel;
 use Viewi\Components\BaseComponent;
 
-class Blog extends BaseComponent
+class Thumbnail extends BaseComponent
 {
     public BlogModel $blog;
 }

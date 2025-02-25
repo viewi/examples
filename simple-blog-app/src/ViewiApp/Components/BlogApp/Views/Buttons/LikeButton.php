@@ -1,6 +1,6 @@
 <?php
 
-namespace Components\BlogApp\Views;
+namespace Components\BlogApp\Views\Buttons;
 
 use Components\BlogApp\Models\BlogModel;
 use Viewi\Components\BaseComponent;

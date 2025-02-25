@@ -1,6 +1,6 @@
 <?php
 
-use Components\BlogApp\Views\PopularBlogs;
+use Components\BlogApp\Views\Pages\PopularBlogs;
 use Components\Views\Home\HomePage;
 use Components\Views\NotFound\NotFoundPage;
 use Viewi\App;

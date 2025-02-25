@@ -1,7 +1,8 @@
 <?php
 
-namespace Components\BlogApp\Views;
+namespace Components\BlogApp\Views\Blocks;
 
+use Components\BlogApp\Services\BlogService;
 use Viewi\Components\BaseComponent;
 
 class SearchableBlogList extends BaseComponent

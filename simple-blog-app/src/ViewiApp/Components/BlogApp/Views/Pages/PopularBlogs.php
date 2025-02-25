@@ -1,6 +1,6 @@
 <?php
 
-namespace Components\BlogApp\Views;
+namespace Components\BlogApp\Views\Pages;
 
 use Viewi\Components\BaseComponent;
 use Viewi\Components\Http\HttpClient;

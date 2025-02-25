@@ -1,6 +1,6 @@
 <?php
 
-namespace Components\BlogApp\Views;
+namespace Components\BlogApp\Services;
 
 use Components\BlogApp\Models\BlogModel;
 

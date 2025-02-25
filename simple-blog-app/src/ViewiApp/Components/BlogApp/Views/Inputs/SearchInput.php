@@ -1,6 +1,6 @@
 <?php
 
-namespace Components\BlogApp\Views;
+namespace Components\BlogApp\Views\Inputs;
 
 use Viewi\Components\BaseComponent;
 
