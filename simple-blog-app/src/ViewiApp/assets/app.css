@@ -1,28 +1,129 @@
-/**
-* Sidebar CSS
-*/
-
-#sidebar {
-    background-color: #E57373;
-    padding: 15px;
+:root {
+    --layout-left-bar-width: 256px;
+    --layout-left: var(--layout-left-bar-width);
+    --layout-margin-left: var(--layout-left-bar-width);
+    --icon-bg-color: rgba(34, 139, 230, .1);
+    --icon-color: #228be6;
+    --menu-item-font-size: .9rem;
+    --menu-item-font-weight: 500;
+    --menu-item-active-bg: rgba(34, 139, 230, .1);
+    --menu-item-active-color: #228be6;
+    --nav-item-active-color: #2163e8;
+    --menu-item-bg: var(--bs-gray-100);
+    --menu-item-color: var(--bs-gray-800);
+    --menu-item-color-focus: var(--bs-dark);
+    --border-color: var(--bs-gray-200);
+    --bs-border-color: #e5eaef;
+    --bs-border-color-translucent: rgba(229, 234, 239, .12);
+    --hover-bg: var(--bs-gray-200);
+    --active-bg: var(--bs-gray-300);
+    --display-on-mini: block;
+    --layout-bg: var(--bs-gray-100)
 }
 
-#content {
-    padding: 26px;
+.modal-content>.btn-close {
+    align-self: end;
+    margin: 10px 10px 0 0;
 }
 
-@media (min-width: 768px) {
-    #sidebar {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        width: 180px;
-        height: 100%;
-        padding-top: 30px;
-    }
+.viewi-icon {
+    width: 24px;
+    height: 24px;
+}
 
-    #content {
-        margin-left: 240px;
-        padding: 0 26px 0 0;
-    }
+.icon {
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.icon-sm {
+    width: 1em;
+    height: 1em;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+.round {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btn-rounded {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btn-rounded:hover {
+    background-color: var(--hover-bg)
+}
+
+.btn-rounded:active {
+    background-color: var(--active-bg) !important
+}
+
+.btn-rounded svg,
+.btn-rounded img {
+    width: 26px;
+    height: 26px
+}
+
+.btn-sm svg,
+.btn-sm img {
+    width: 20px;
+    height: 20px
+}
+
+/** blog-application **/
+.bi {
+    fill: currentColor;
+}
+
+.blog-application .thumbnail {
+    height: 80px;
+    width: 100%;
+    max-width: 120px;
+}
+
+.blog-application .thumbnail img {
+    height: auto;
+    max-width: 100%;
+}
+
+.h-688 {
+    height: 688px;
+}
+
+.input-group-text .viewi-icon {
+    height: 18px;
+    width: 18px;
+}
+
+.icon-lg {
+    width: 64px;
+    height: 64px;
+}
+
+.h-400 {
+    height: 400px;
 }
