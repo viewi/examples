@@ -1,4 +1,4 @@
-# Blog demo application from Viewi's home page
+# Simple Blog Demo Application
 
 ## Install
 
@@ -10,15 +10,15 @@
 
 ## Run
 
-1. Run NPM watch command:
+### 1. Run NPM watch command:
 
-Root folder: `simple-blog-app`
+   Root folder: `simple-blog-app`
 
-`cd src/ViewiApp/js`
+   `cd src/ViewiApp/js`
 
-`npm run watch`
+   `npm run watch`
 
-2. Run PHP dev server:
+### 2. Run PHP dev server:
 
 Root folder: `simple-blog-app`
 
